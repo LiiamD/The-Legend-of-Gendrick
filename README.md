@@ -1,2 +1,2 @@
 # The-Legend-of-Gendrick
-Projet de RPG textuel
+Projet de RPG textuel en autoformation
