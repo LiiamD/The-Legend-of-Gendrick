@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(76, 73, 101, 0.9);
+    background-image: url(https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/background_castle.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+  }
+  
+  #text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  #titleScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/title_screenV3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 100;
+}
+
+#titleScreen button {
+  padding: 5px 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+  position: fixed;
+  margin-top: -80px;
+  font-family: Stempel Garamond LT Std Roman;
+  border-radius: 10px;
+}
+
+#titleScreen button:hover {
+  background: rgb(8, 33, 130);
+  color: white;
+  background-image: linear-gradient(rgb(6, 21, 83), rgb(8, 33, 130));
+  border: 3px solid rgb(8, 33, 130);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+
+   #gameScreen {
+    display: none;
+    padding: 20px;
+}
+
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+    box-shadow: 0 8px 24px 6px rgba(0, 0, 0, 0.8);
+    
+     
+  }
+  
+  #controls,
+  #stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+  
+
+
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+  }
+
+  button:not(#titleScreen button):hover {
+    background: rgb(8, 33, 130);
+    color: white;
+    background-image: linear-gradient(rgb(6, 21, 83), rgb(8, 33, 130));
+    border: 3px solid rgb(8, 33, 130);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
