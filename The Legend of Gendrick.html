@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="gendrick-styles.css">
+    <title>The Legend of Gendrick</title>
+  </head>
+  <body>
+    <div id="titleScreen">
+      <button id="playButton">Play</button>
+    </div>
+    <div id="gameScreen">
+    <div id="game">
+      <div id="stats">
+        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+        <span class="stat">PV: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Coin: <strong><span id="coinText">50</span></strong></span>
+        <span class="stat">Arme: <strong><span id="weaponText">Bâton</span></strong></span>
+      </div>
+      <div id="controls">
+        <audio id="maMusique" class="menuTheme" muted>
+            <source src="https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/gendrick_dialogue.mp3" type="audio/mpeg">
+            Votre navigateur ne supporte pas l'audio.
+          </audio>
+        <button id="button1">Aller voir le marchand</button>
+        <button id="button2">Explorer le donjon</button>
+        <button id="button3">Combattre le Roi usurpateur</button>
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Monstre: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">PV: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="text">
+      </div>
+    </div>
+  </div>
+    <script src="gendrick-script.js"></script>   
+  </body>
+</html>
