@@ -1,4 +1,4 @@
-## The-Legend-of-Gendrick
+## The Legend of Gendrick
 Projet de RPG textuel en autoformation
 # Utilisation 
 - Téléchargez le dossier.zip dans le code
