@@ -55,24 +55,24 @@ const locations = [
       return "\"Jeune homme... Mon nom est Gendrick, ancien roi usurpé du trône qui m'a été légué par mes ancêtres. Pénètre le donjon. Cherche la Force. Tu réussiras à vaincre celui qui m'a tout pris. Deviens le nouveau Roi !\"";
     }
   },
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/village.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/background_castle.jpg",
+    music: "src/audio/village.mp3",
+    background: "src/image/background_castle.jpg",
   },
   {
     name: "marchand",
     "button text": ["10 PV (10 Coin)", "Arme (30 Coin)", "Retourner au village"],
     "button functions": [buyHealth, buyWeapon, goVillage],
     text: "Vous entrez chez Léon le marchand.",
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/marchand.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/marchandV2.png"
+    music: "src/audio/marchand.mp3",
+    background: "src/image/marchandV2.png"
   },
   {
     name: "donjon",
     "button text": ["Attaquer Ratanas", "Attaquer Squelette", "Retourner au village"],
     "button functions": [fightRatanas, fightSquelette, goVillage],
     text: "Vous pénétrez dans le donjon. Attention ! Des monstres y rôdent !",
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/donjon.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/donjonV3.png"
+    music: "src/audio/donjon.mp3",
+    background: "src/image/donjonV3.png"
   },
   {
     name: "combat",
@@ -85,40 +85,40 @@ const locations = [
       return "Vous affrontez un monstre !";
     }
      }, 
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/combat.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/combatv3.png",
+    music: "src/audio/combat.mp3",
+    background: "src/image/combatv3.png",
   },
   {
     name: "victoire",
     "button text": ["Rentrer au village", "Rentrer au village", "Rentrer au village"],
     "button functions": [goVillage, goVillage, easterEgg],
     text: "Vous avez vaincu le monstre ! Vous avez gagné des points de XP ainsi que des Coin !",
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/victoire.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/victoire.png"
+    music: "src/audio/victoire.mp3",
+    background: "src/image/victoire.png"
   },
   {
     name: "game over",
     "button text": ["REJOUER ?", "REJOUER ?", "REJOUER ?"],
     "button functions": [restart, restart, restart],
     text: "Vous êtes mort. &#x2620;",
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/game_over.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/game_over.png"
+    music: "src/audio/game_over.mp3",
+    background: "src/image/game_over.png"
   },
   { 
     name: "game complete", 
     "button text": ["REJOUER ?", "REJOUER ?", "REJOUER ?"], 
     "button functions": [restart, restart, restart], 
     text: "Jeune homme... Tu as battu le despote qui s'est emparé de mon trône... Dorénavant, tu es officiellement... le nouveau Roi !",
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/game_complete.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/game_complete.png"
+    music: "src/audio/game_complete.mp3",
+    background: "src/image/game_complete.png"
   },
   {
     name: "easter egg",
     "button text": ["2", "8", "Rentrer au village ?"],
     "button functions": [pickTwo, pickEight, goVillage],
     text: "\"Jeune homme... Choisis un des deux numéros au-dessus. Dix numéros seront aléatoirement choisis entre 0 et 10. Si le numéro que tu as choisi correspond à l'un des 10 numéros aléatoires. Tu gagneras un gros lot !\"",
-    music: "https://github.com/LiiamD/The-Legend-of-Gendrick/raw/refs/heads/main/src/audio/easter_egg.mp3",
-    background: "https://raw.githubusercontent.com/LiiamD/The-Legend-of-Gendrick/refs/heads/main/src/image/easter_egg.png"
+    music: "src/audio/easter_egg.mp3",
+    background: "src/image/easter_egg.png"
   }
 ];
 
