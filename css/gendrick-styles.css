@@ -6,7 +6,7 @@
 
 body {
     background-color: rgba(76, 73, 101, 0.9);
-    background-image: url(/src/image/background_castle.jpg);
+    background-image: url("/src/image/background_castle.jpg");
     background-size: cover;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-image: url(/src/image/title_screenV3.png);
+  background-image: url("/src/image/title_screenV3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -109,3 +109,4 @@ body {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
 
   }
+
